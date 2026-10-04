@@ -3,7 +3,7 @@ services:
     name: financiamento-bv
     runtime: static
     buildCommand: ""
-    staticPublishPath: ./financiamentobv
+    staticPublishPath: ./
     routes:
       - type: rewrite
         source: /*
